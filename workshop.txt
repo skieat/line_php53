@@ -8,7 +8,7 @@ Edit file www/line.php with command:
 $ vi www/line.php *** change your token id and save ***
 
 Run docker with command:
-$ docker container run -d --name line -p 8888:80 -v $(pwd):/var/www somkieat/line_php53
+$ docker container run -d --name line -p 8888:80 -v $(pwd)/www:/var/www somkieat/line_php53
 
 Open browser go to  http://ipaddress:8888
 
